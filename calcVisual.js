@@ -5,10 +5,14 @@ let n2 = process.argv[4];
 
 switch (accion){
     case "sumar":
+        console.log("------------------------------");
+        console.log("");
+        console.log(" El resultado de la suma es " + calculadora.suma)
         break;
     case "restar":
         break;
     case "multiplicar":
+        console.log(" El resultado de la multiplicacion es " + calculadora.multiplicacion);
         break;
     case "dividir":
         break;
