@@ -7,10 +7,16 @@ switch (accion){
     case "sumar":
         break;
     case "restar":
+        console.log("-----------------------------------------");
+        console.log("|El Resultado de la Resta es:"+calculadora.resta(n1,n2)+"     |");
+        console.log("-----------------------------------------");
         break;
     case "multiplicar":
         break;
     case "dividir":
+        console.log("-----------------------------------------");
+        console.log("|El Resultado de la Resta es:"+calculadora.division(n1,n2)+"     |");
+        console.log("-----------------------------------------");
         break;
 
     default: 
