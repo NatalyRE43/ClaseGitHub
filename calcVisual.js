@@ -9,7 +9,7 @@ switch (accion){
         console.log("");
         console.log(" El resultado de la suma es " +calc.suma(num1,num2))
         break;
-    case "restar":
+    case "restar":                   
         console.log("-----------------------------------------");
         console.log("|El Resultado de la Resta es:"+calc.resta(num1,num2)+"     |");
         console.log("-----------------------------------------");
