@@ -1,4 +1,4 @@
-const calculadora = require("./CalcObj");
+const calcu = require("./CalcObj");
 let accion = process.argv[2]; //Capturar la entrada por terminal   node app.js crear "cocinar"
 let n1 = process.argv[3];
 let n2 = process.argv[4];
