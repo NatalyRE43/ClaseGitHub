@@ -15,7 +15,6 @@ switch (accion){
         console.log("-----------------------------------------");
         break;
     case "multiplicar":
-       
         console.log(" El resultado de la multiplicacion es " + calc.multiplicacion(num1,num2));
         break;
     case "dividir":
