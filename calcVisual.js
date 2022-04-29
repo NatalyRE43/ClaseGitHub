@@ -7,7 +7,7 @@ switch (accion){
     case "sumar":
         console.log("------------------------------");
         console.log("");
-        console.log(" El resultado de la suma es " + calculadora.suma)
+        console.log(" El resultado de la suma es " + calculadora.suma(n1,n2))
         break;
     case "restar":
         console.log("-----------------------------------------");
@@ -15,7 +15,7 @@ switch (accion){
         console.log("-----------------------------------------");
         break;
     case "multiplicar":
-        console.log(" El resultado de la multiplicacion es " + calculadora.multiplicacion);
+        console.log(" El resultado de la multiplicacion es " + calculadora.multiplicacion(n1,n2));
         break;
     case "dividir":
         console.log("-----------------------------------------");
