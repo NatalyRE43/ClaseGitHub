@@ -5,9 +5,10 @@ let n2 = process.argv[4];
 
 switch (accion){
     case "sumar":
+        let sumar = calculadora.suma(n1,n2)
         console.log("------------------------------");
         console.log("");
-        console.log(" El resultado de la suma es " + calculadora.suma(n1,n2))
+        console.log(" El resultado de la suma es " + sumar)
         break;
     case "restar":
         console.log("-----------------------------------------");
@@ -15,7 +16,8 @@ switch (accion){
         console.log("-----------------------------------------");
         break;
     case "multiplicar":
-        console.log(" El resultado de la multiplicacion es " + calculadora.multiplicacion(n1,n2));
+        let multiplicar = calculadora.multiplicacion(n1,n2)
+        console.log(" El resultado de la multiplicacion es " + multiplicar);
         break;
     case "dividir":
         console.log("-----------------------------------------");
