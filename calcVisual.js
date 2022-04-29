@@ -10,16 +10,18 @@ switch (accion){
         console.log(" El resultado de la suma es " + calculadora.suma(n1,n2))
         break;
     case "restar":
+        let restar = calculadora.resta(n1,n2);
         console.log("-----------------------------------------");
-        console.log("|El Resultado de la Resta es:"+calculadora.resta(n1,n2)+"     |");
+        console.log("|El Resultado de la Resta es:"+ restar +"     |");
         console.log("-----------------------------------------");
         break;
     case "multiplicar":
         console.log(" El resultado de la multiplicacion es " + calculadora.multiplicacion(n1,n2));
         break;
     case "dividir":
+        let division = calculadora.division(n1,n2);
         console.log("-----------------------------------------");
-        console.log("|El Resultado de la Resta es:"+calculadora.division(n1,n2)+"     |");
+        console.log("|El Resultado de la Resta es:"+ division +"     |");
         console.log("-----------------------------------------");
         break;
 
